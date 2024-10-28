@@ -13,7 +13,7 @@
     --soft-orange: #FFE9D4;
     --secondary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
-    --warm-black: 201E1C;
+    --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
     --off-white: #FAF8F7;
@@ -31,15 +31,17 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
-header{
+header {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
 header img {
@@ -49,7 +51,7 @@ header img {
     align-self: center;
 }
 
-.header--title-container{
+.header--title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -59,6 +61,52 @@ header img {
     align-self: center;
 }
 
+.header--title-container h1 {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+}
+
+.header--title-container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-top: 24px;
+}
+
+.header--title-container .header--button {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px 0px #59491E29;
+    border: none;
+    border-radius: 4px;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.823rem;
+    color: var(--warm-black);
+    text-align: center;
+
+    text-decoration: none;
+}
+
+
+.header--button span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/down-arrow.svg");
+}
 
 
 /* font-family: "Inter", sans-serif; */
