@@ -5,6 +5,13 @@
 Develop your frontend skills by building responsive, mobile-optimized designs! This course, guided by Diego De Granda, dives deep into adapting websites across devices, starting with a **mobile-first** approach.
 
 ---
+## 🚀 Live Demo
+
+Experience the project in action! Click the link below to explore the live demo:
+
+[**View Live Demo**](https://xMarioOP.github.io/mobile-first-layout/)
+
+---
 
 ## 📝 Overview
 > Over **50% of internet traffic** originates from mobile devices. This course will teach you everything needed to craft adaptable and visually appealing websites, ensuring smooth experiences on smartphones, tablets, and laptops.
