@@ -31,6 +31,8 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
+
+/* header */
 header {
     position: relative;
     display: flex;
@@ -100,7 +102,7 @@ header img {
 }
 
 
-.header--button span{
+.header--button span {
     display: inline-block;
     width: 13px;
     height: 8px;
@@ -108,5 +110,167 @@ header img {
     background-image: url("./assets/icons/down-arrow.svg");
 }
 
+/* main */
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
 
-/* font-family: "Inter", sans-serif; */
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange-container .background-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: url("./assets/img/Bitcoin.svg") center / cover no-repeat;
+}
+
+.main-exchange-container h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.main-exchange-container--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+
+.main-tables-container__coins-table .coins-table__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 23.44px;
+    color: #FF9536;
+    position: relative;
+    right: 49px;
+    margin-bottom: 12px;
+
+}
+
+.coins-table_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    /* margin-bottom: 16px; */
+}
+
+.coin-container {
+    gap: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.coin {
+    font-family: "Inter", sans-serif;
+    width: 101px;
+    height: 39px;
+    padding: 10px 12px;
+    background-color: var(--just-white);
+
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.936rem;
+    color: #B5B0AC;
+
+}
+
+.price-coins {
+    font-family: "Inter", sans-serif;
+    width: 101px;
+    height: 39px;
+    padding: 10px 12px;
+    background-color: var(--just-white);
+
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.936rem;
+    color: #757575;
+}
+
+.top-left {
+    border-top-left-radius: 8px;
+}
+
+.top-right {
+    border-top-right-radius: 8px;
+}
+
+.bottom-left {
+    border-bottom-left-radius: 8px;
+}
+
+.bottom-right {
+    border-bottom-right-radius: 8px;
+}
+
+.coin-icon-down {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/trending-down.svg");
+}
+
+.coin-icon-up {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/trending-up.svg");
+}
+
+.updated-text {
+    display: flex;
+    justify-content: center;
+}
+
+.updated {
+    display: flex;
+    width: 173px;
+    height: 31px;
+    border-radius: 8px;
+    gap: 4px;
+    background-color: var(--soft-orange);
+
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.452rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.coins-table__icon {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(./assets/icons/right-arrow.svg) center no-repeat;
+    right: -130px;
+    top: -92px;
+}
