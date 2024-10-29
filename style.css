@@ -254,6 +254,7 @@ main {
     width: 173px;
     height: 31px;
     border-radius: 8px;
+    margin-top: 16px;
     gap: 4px;
     background-color: var(--soft-orange);
 
